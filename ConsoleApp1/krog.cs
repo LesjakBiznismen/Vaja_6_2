@@ -13,6 +13,17 @@ namespace ConsoleApp1
         {
             r = 1;
         }
+        public krog(double r)
+        {
+            this.r = r;
+        }
+
+        public void NastaviR()
+        {
+            Console.WriteLine("Vnesi velikost R:");
+            r = Convert.ToDouble(Console.ReadLine());
+        }
+
     }
 }
 
