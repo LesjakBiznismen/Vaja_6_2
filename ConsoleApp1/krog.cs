@@ -8,7 +8,7 @@ namespace ConsoleApp1
 {
     class krog
     {
-        
+        private double r;
     }
 }
 
