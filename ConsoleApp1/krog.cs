@@ -9,6 +9,10 @@ namespace ConsoleApp1
     class krog
     {
         private double r;
+        public krog()
+        {
+            r = 1;
+        }
     }
 }
 
