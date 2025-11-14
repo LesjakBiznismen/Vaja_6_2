@@ -8,6 +8,7 @@ namespace ConsoleApp1
 {
     class pravokotnik
     {
-
+        private double a;
+        private double b;
     }
 }
