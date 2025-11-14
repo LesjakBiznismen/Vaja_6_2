@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    class krog
+    class Krog
     {
         private double r;
-        public krog()
+        public Krog()
         {
             r = 1;
         }
-        public krog(double r)
+        public Krog(double r)
         {
             this.r = r;
         }
