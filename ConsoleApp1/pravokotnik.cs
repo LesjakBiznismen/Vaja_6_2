@@ -24,5 +24,16 @@ namespace ConsoleApp1
             Console.WriteLine("Vpiši št. b: ");
             b = double.Parse(Console.ReadLine());
         }
+
+        public double Obseg()
+        {
+            return 2 * (a + b);
+        }
+
+        public double Ploscina()
+        {
+            return a * b;
+        }
+
     }
 }
