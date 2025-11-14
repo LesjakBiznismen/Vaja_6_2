@@ -23,9 +23,13 @@ namespace ConsoleApp1
             Console.WriteLine("Vnesi velikost R:");
             r = Convert.ToDouble(Console.ReadLine());
         }
-
+        public double Ploscina()
+        {
+            return Math.PI * r * r;
+        }
     }
 }
+
 
         
 
