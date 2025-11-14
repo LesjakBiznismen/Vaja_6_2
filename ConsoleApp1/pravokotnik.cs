@@ -10,5 +10,11 @@ namespace ConsoleApp1
     {
         private double a;
         private double b;
+        public pravokotnik()
+        {
+            a = 1;
+            
+            b = 1;
+        }
     }
 }
