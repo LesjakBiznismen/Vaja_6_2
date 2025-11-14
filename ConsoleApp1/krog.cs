@@ -8,32 +8,10 @@ namespace ConsoleApp1
 {
     class krog
     {
-        private double r;
-        public krog()
-        {
-            r = 1;
-        }
-
-        public krog(double r)
-        {
-            this.r = r;
-        }
-
-        public void NastaviR()
-        {
-            Console.WriteLine("Vnesi velikost R:");
-            r = Convert.ToDouble(Console.ReadLine());
-        }
-
-        public double Obseg()
-        {
-            return 2 * Math.PI * r;
-        }
-
-        public double Ploscina()
-        {
-            return Math.PI * r * r;
-        }
+        
     }
 }
+
+        
+
 
